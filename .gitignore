@@ -1,0 +1,78 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+.env/
+.venv/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Data (VERY IMPORTANT)
+# -----------------------------
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# -----------------------------
+# Model checkpoints (CRITICAL)
+# -----------------------------
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+*.pt
+*.pth
+
+# -----------------------------
+# Logs & outputs
+# -----------------------------
+*.log
+logs/
+runs/
+
+# -----------------------------
+# Images / experiment outputs
+# -----------------------------
+images/weak_labels/
+images/qualitative/
+images/plots/
+
+# (Optional: keep only final figures if needed)
+# images/*
+# !images/final/
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# HuggingFace / Torch cache
+# -----------------------------
+.cache/
+.huggingface/
+torch_cache/
+
+# -----------------------------
+# Large SAM / pretrained weights
+# -----------------------------
+sam_vit_*.pth
