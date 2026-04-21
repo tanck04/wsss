@@ -43,13 +43,6 @@ checkpoints/*.ckpt
 logs/
 runs/
 
-# -----------------------------
-# Images / experiment outputs
-# -----------------------------
-images/weak_labels/
-images/qualitative/
-images/plots/
-
 # (Optional: keep only final figures if needed)
 # images/*
 # !images/final/
