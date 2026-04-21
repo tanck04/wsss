@@ -28,15 +28,6 @@ datasets/
 *.gz
 
 # -----------------------------
-# Model checkpoints (CRITICAL)
-# -----------------------------
-checkpoints/*.pt
-checkpoints/*.pth
-checkpoints/*.ckpt
-*.pt
-*.pth
-
-# -----------------------------
 # Logs & outputs
 # -----------------------------
 *.log
